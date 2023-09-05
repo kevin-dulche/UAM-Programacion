@@ -2,9 +2,9 @@ class Fecha:
     def __init__(self, dia = None, mes = None, año = None):
         # Constructor vacio
         if dia is None and mes is None and año is None:
-            self.__dia = ""
-            self.__mes = ""
-            self.__año = ""
+            self.__dia = None
+            self.__mes = None
+            self.__año = None
         else:
             # Constructor con parametros
             self.__dia = dia

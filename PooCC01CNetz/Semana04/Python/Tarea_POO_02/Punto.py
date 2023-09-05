@@ -4,8 +4,8 @@ class Punto:
     def __init__(self, coorX = None, coorY = None):
         # Constructor vacio
         if coorX is None and coorY is None:
-            self.__coordenadaX = 0
-            self.__coordenadaY = 0
+            self.__coordenadaX = None
+            self.__coordenadaY = None
         else:
             # Constructor con parametros
             self.__coordenadaX = coorX
@@ -20,7 +20,7 @@ class Punto:
     def setCoorY(self, coorY):
         self.__coordenadaY = coorY
 
-    def getCoorX(self):
+    def getCoorY(self):
         return self.__coordenadaY
 
     def to_string_cartesianas(self):
