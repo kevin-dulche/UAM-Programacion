@@ -17,6 +17,6 @@ public class Licenciado extends Empleado{
     }
 
     public double calcQuincena(){
-        return super.getSalary();
+        return super.getSalary() * 15 * 7;
     }
 }
